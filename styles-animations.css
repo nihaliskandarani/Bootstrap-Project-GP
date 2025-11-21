@@ -68,5 +68,9 @@
 
 
 
+.carousel-2{ height: 85vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(./images/Business\ Vision.jpg);
+}
 
-.num-1:hover li{color: white;}
+.num-1:hover a{color: #ffc107 !important; }
+.num-1:hover{border-color: #ffc107 !important;}
