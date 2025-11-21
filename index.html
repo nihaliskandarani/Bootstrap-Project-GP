@@ -26,8 +26,7 @@
       rel="stylesheet"
     />
 
-
-<link rel="stylesheet" href="./styles-animations.css">
+    <link rel="stylesheet" href="./styles-animations.css" />
 
     <style>
       body {
@@ -42,12 +41,11 @@
     </style>
   </head>
   <body>
-
     <!-- navbar-hero -->
 
     <div class="container-fluid fluid1 px-0">
       <nav
-        class="navbar navbar-expand-lg bg-dark py-3 navbar-dark"
+        class="navbar navbar-expand-lg fixed-top bg-dark py-3 navbar-dark"
         style="--bs-bg-opacity: 0.9"
       >
         <div class="container">
@@ -173,7 +171,7 @@
           </div>
         </div>
       </nav>
-      <div class="container">
+      <div class="container py-5">
         <div class="row justify-content-center mt-5">
           <div class="col-lg-8 col-md-10 text-center mt-5">
             <h1 class="display-3 fw-bold text-white">
@@ -264,8 +262,283 @@
       </div>
     </div>
 
+    <!-- sec2 second -->
+
+    <div class="container justify-content-center">
+      <div class="row mt-5 py-5">
+        <div class="col-md-6" style="font-size: 17px">
+          <h2>Voluptatem dignissimos provident</h2>
+          <p>
+            <em
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.</em
+            >
+          </p>
+          <ul class="list-unstyled">
+            <li>
+              <span
+                ><i
+                  class="bi bi-check2-all text-warning"
+                  style="font-size: 25px"
+                ></i
+              ></span>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </li>
+            <li>
+              <span
+                ><i
+                  class="bi bi-check2-all text-warning"
+                  style="font-size: 25px"
+                ></i
+              ></span>
+              Duis aute irure dolor in reprehenderit in voluptate velit.
+            </li>
+            <li>
+              <span
+                ><i
+                  class="bi bi-check2-all text-warning"
+                  style="font-size: 25px"
+                ></i
+              ></span>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate trideta storacalaperda
+              mastiro dolore eu fugiat nulla pariatur.
+            </li>
+          </ul>
+          <p>
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore
+            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img
+            class="img-fluid rounded mt-5"
+            src="./images/team-discussion-activity-stockcake.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!-- sec3 carousel -->
+    <div class="container-fluid mt-5 py-5">
+      <div class="row">
+        <div class="col-md-12">
+          <div
+            class="carousel-container py-5"
+            id="slides-with-indicators"
+            style="position: relative; overflow: hidden"
+          >
+            <div
+              class="image-wrapper"
+              id="slider"
+              style="display: flex; transition: transform 0.5s ease"
+            >
+              <div class="col-md-3">
+                <img
+                  class="d-block car-img w-25"
+                  src="./images/client-1.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="col-md-3">
+                <img
+                  class="d-block car-img w-25"
+                  src="./images/client-2.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="col-md-3">
+                <img
+                  class="d-block car-img w-25"
+                  src="./images/client-3.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="col-md-3">
+                <img
+                  class="d-block car-img w-25"
+                  src="./images/client-4.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="col-md-3">
+                <img
+                  class="d-block car-img w-25"
+                  src="./images/client-5.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="col-md-3">
+                <img
+                  class="d-block car-img w-25"
+                  src="./images/client-6.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="col-md-3 col-sm-12">
+                <img
+                  class="d-block car-img w-25"
+                  src="./images/client-7.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="col-md-3">
+                <img
+                  class="d-block img-fluid img-responsive w-25 car-img "
+                  src="./images/client-8.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div
+              class="carousel-indicators position-absolute"
+              style="transform: translateY(25px)"
+            >
+              <button
+                class="active bg-dark"
+                onclick="moveSlide(0, true)"
+                type="button"
+                data-bs-target="#slider"
+                data-bs-slide-to="0"
+                style="border-radius: 50%; height: 12px; width: 12px"
+              ></button>
+
+              <button
+                class="bg-dark"
+                onclick="moveSlide(1, true)"
+                type="button"
+                data-bs-target="#slider"
+                data-bs-slide-to="1"
+                style="border-radius: 50%; height: 12px; width: 12px"
+              ></button>
+
+              <button
+                class="bg-dark"
+                onclick="moveSlide(1, true)"
+                type="button"
+                data-bs-target="#slider"
+                data-bs-slide-to="2"
+                style="border-radius: 50%; height: 12px; width: 12px"
+              ></button>
+
+              <button
+                class="bg-dark"
+                onclick="moveSlide(1, true)"
+                type="button"
+                data-bs-target="#slider"
+                data-bs-slide-to="3"
+                style="border-radius: 50%; height: 12px; width: 12px"
+              ></button>
+
+              <button
+                class="bg-dark"
+                onclick="moveSlide(1, true)"
+                type="button"
+                data-bs-target="#slider"
+                data-bs-slide-to="4"
+                style="border-radius: 50%; height: 12px; width: 12px"
+              ></button>
+              <button
+                class="bg-dark"
+                onclick="moveSlide(1, true)"
+                type="button"
+                data-bs-target="#slider"
+                data-bs-slide-to="5"
+                style="border-radius: 50%; height: 12px; width: 12px"
+              ></button>
+              <button
+                class="bg-dark"
+                onclick="moveSlide(1, true)"
+                type="button"
+                data-bs-target="#slider"
+                data-bs-slide-to="6"
+                style="border-radius: 50%; height: 12px; width: 12px"
+              ></button>
+              <button
+                class="bg-dark"
+                onclick="moveSlide(1, true)"
+                type="button"
+                data-bs-target="#slider"
+                data-bs-slide-to="7"
+                style="border-radius: 50%; height: 12px; width: 12px"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
+    <script>
+
+      // carousel
+      const slider = document.getElementById("slider");
+      const carouselContainer = slider.closest(".carousel-container");
+      const imgWidth = 240;
+      let ScrollPosition = 0;
+      let autoSlideInterval;
+
+      function moveSlide(direction, restartTimer = false) {
+        ScrollPosition += direction * imgWidth;
+        const maxScroll = slider.scrollWidth - slider.clientWidth;
+
+        if (ScrollPosition >= maxScroll) {
+          ScrollPosition = 0; // Loop back to start
+        } else if (ScrollPosition < 0) {
+          ScrollPosition = maxScroll; // Loop to end if going backwards
+        }
+
+        slider.style.transform = `translateX(-${ScrollPosition}px)`;
+
+        // Restart auto-slide timer if manually triggered
+        if (restartTimer) {
+          clearInterval(autoSlideInterval);
+          startAutoSlide();
+        }
+      }
+
+      // Auto-advance every 3 seconds
+      function startAutoSlide() {
+        clearInterval(autoSlideInterval);
+        autoSlideInterval = setInterval(() => {
+          moveSlide(1);
+        }, 3000);
+      }
+
+      // Pause on hover
+      if (carouselContainer) {
+        carouselContainer.addEventListener("mouseenter", () => {
+          clearInterval(autoSlideInterval);
+        });
+
+        carouselContainer.addEventListener("mouseleave", () => {
+          startAutoSlide();
+        });
+      }
+
+      // Start auto-slide
+      startAutoSlide();
+
+
+
+
+
+
+
+
+
+
+
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
