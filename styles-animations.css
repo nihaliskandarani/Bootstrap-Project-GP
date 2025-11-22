@@ -106,3 +106,7 @@
     transform: translateY(60px); transition: 0.6s ease;
 }
 .sec10-icons i:hover{color: #ffc107;}
+
+.footer-link a:hover{ color:#ffc107 !important; transform: translateY(-1px); transition: 0.2s ease;}
+.f-icons i:hover{color: #ffc107 !important; border-color: #ffc107 !important;
+transform: translateY(-1px); transition: 0.3s ease;}
