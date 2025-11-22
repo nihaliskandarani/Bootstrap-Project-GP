@@ -110,3 +110,39 @@
 .footer-link a:hover{ color:#ffc107 !important; transform: translateY(-1px); transition: 0.2s ease;}
 .f-icons i:hover{color: #ffc107 !important; border-color: #ffc107 !important;
 transform: translateY(-1px); transition: 0.3s ease;}
+
+
+
+/* animations */
+
+@keyframes slide-from-right {
+  from {
+    transform: translateX(40px);
+    opacity: 0.5;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-from-left {
+  from {
+    transform: translateX(-40px);
+    opacity: 0.5;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-from-bottom {
+  from {
+    transform: translateY(40px);
+    opacity: 0.5;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
