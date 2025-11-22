@@ -74,3 +74,35 @@
 
 .num-1:hover a{color: #ffc107 !important; }
 .num-1:hover{border-color: #ffc107 !important;}
+.img-overlay , .img-overlay2 , .img-overlay3{
+     position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  left: 0;
+  width: 100%; height: 100%;
+  opacity: 0;;
+  object-fit:fill;
+  
+}
+
+.sec8:hover .img-overlay{opacity: 1; transform: scale(1.05); transition: 0.5s ease;}
+.sec8{
+ border-radius: 5%; 
+    overflow: hidden;
+}
+.sec2 {
+ border-radius: 5%;
+    overflow: hidden;
+}
+.sec2:hover .img-overlay2{opacity: 1; transform: scale(1.05); transition: 0.5s ease;}
+.sec4{
+ border-radius: 5%; overflow: hidden;
+}
+.sec4:hover .img-overlay3{opacity: 1; transform: scale(1.05); transition: 0.5s ease;}
+.sec10:hover .img-overlay{opacity: 1; transform: scale(1.05); transition: 0.5s ease;}
+.sec10{overflow: hidden;}
+.sec10:hover .sec10-icons{
+    transform: translateY(60px); transition: 0.6s ease;
+}
+.sec10-icons i:hover{color: #ffc107;}
